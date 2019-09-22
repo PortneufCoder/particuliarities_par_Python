@@ -13,4 +13,9 @@ print("This code executed!")
 
 # KeyError(No last_name key)
 
+# data types in python
+# complex
+# bytes bytearray 0 - 255
+# tuples --> Immutable lists, like arrays in C#
+# set([]) --> filters duplicates and orders a bunch of ints
 

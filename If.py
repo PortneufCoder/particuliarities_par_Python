@@ -1,4 +1,4 @@
-age = 33
+age = range(1, 33)
 
 if age == 33:
     print("That is a nice age")
