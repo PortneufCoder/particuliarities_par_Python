@@ -15,11 +15,11 @@ for index in range(10):
 for name in student_names:
     if name == "Katarina":
         print("Found her! " + name)
-        break
+        break # stop execution of the loop and move to next line
     print("Currently testing " + name)
 
 for name in student_names:
     if name == "Frank Grimes":
-        continue
+        continue # skip item and go on with the loop
         print("Found him! " + name)
     print("Currently testing " + name)
