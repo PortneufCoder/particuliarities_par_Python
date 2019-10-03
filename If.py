@@ -7,7 +7,6 @@ else:
 
 student_names = []
 student_names = ["Jake", "Thomas", "Sebastien"]
-student_names.extend("Homer")
-print(student_names)
-print(len(student_names))
+#  student_names.extend("Homer")
+
 print(student_names[2:])
