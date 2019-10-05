@@ -1,7 +1,7 @@
-from python_OOP.classes import *
+import python_OOP.classes
 
 
-class HighSchoolStudent(Student):  # this subclass(derived) can access all methods and vars in parent
+class HighSchoolStudent(python_OOP.classes.Student):  # this subclass(derived) can access all methods and vars in parent
     school_name = "Springfield High School"
 
     def get_school_name(self):

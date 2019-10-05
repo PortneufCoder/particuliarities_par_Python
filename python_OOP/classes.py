@@ -4,9 +4,10 @@ students = []
 class Student:
     school_name = "Springfield Elementary"  # can be called directly since its a class attribute ! an instance attribute
 
-    def __init__(self, name, student_id=123):  # self == this in JS
+    def __init__(self, name, last_name, student_id=123):  # self == this in JS
         self.name = name
         self.student_id = student_id
+        self.last_name = last_name
         students.append(self)  # append all attributes to list
 
     def __str__(self):  # this method overrides the first method
@@ -19,6 +20,6 @@ class Student:
         return self.school_name
 
 
-homer = Student("Homer")  # class initialization
+#  homer = Student("Homer")  # class initialization
 
 
