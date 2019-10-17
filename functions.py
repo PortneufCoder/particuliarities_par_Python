@@ -73,3 +73,17 @@ def kwargs_test(country, **kwargs):
 
 
 kwargs_test("Pluto", description="Solar System", temp="cold", aliens_present="maybe")
+
+
+def banner(message, border="^"):
+    """when passing default args, it must be added
+    after non-default args or else we get a syntax error"""
+
+    line = border * len(message)
+    print(line)
+    print(message)
+    print(line)
+
+
+banner("Irish Cream")
+banner("The Grass is Singing", "-")  # run time arg replaces default arg
