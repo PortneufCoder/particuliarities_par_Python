@@ -9,4 +9,4 @@ student_names = []
 student_names = ["Jake", "Thomas", "Sebastien"]
 #  student_names.extend("Homer")
 
-print(student_names[2:])
+print(student_names[2:])  # Sebastien
