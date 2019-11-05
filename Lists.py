@@ -23,3 +23,13 @@ for name in student_names:
         continue  # skip item and go on with the loop
         print("Found him! " + name)
     print("Currently testing " + name)
+
+names = ["Joey Tribbiani", "Monica Geller", "Chandler Bing", "Phoebe Buffay"]
+
+user_names = []
+
+for name in names:
+    name = name.replace(' ', "_")
+    user_names.append(name.lower())
+
+print(user_names)
