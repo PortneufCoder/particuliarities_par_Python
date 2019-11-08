@@ -40,3 +40,28 @@ for stuff, value in basket_items.items():
 
 
 print(result)
+
+fruit_count, not_fruit_count = 0, 0
+basket_items = {'apples': 4, 'oranges': 19, 'kites': 3, 'sandwiches': 8}
+fruits = ['apples', 'oranges', 'pears', 'peaches', 'grapes', 'bananas']
+print(dir(fruits))
+# Iterate through the dictionary
+for fruit, number in basket_items.items():
+    if fruit in fruits:
+        fruit_count += number
+    if fruit not in fruits:
+        not_fruit_count += number
+
+print("The number of fruits is {}. There are {} objects that are not fruits".format(fruit_count, not_fruit_count))
+
+new_list = []
+total_odds = 5
+
+for number in num_list:
+    if number / 2 == 0:
+        new_list.append(number)
+    if len(new_list) == total_odds:
+        break
+
+
+print(new_list)
