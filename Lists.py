@@ -50,3 +50,17 @@ while (count_odd < 5) and (i < len_num_list):
 
 print("The numbers of odd numbers added are: {}".format(count_odd))
 print("The sum of the odd numbers added is: {}".format(list_sum))
+
+check_prime = [26, 39, 51, 53, 57, 79, 85]
+is_prime = list()
+not_prime = list()
+multiplier = 2
+
+
+for number in check_prime:
+    if number % 2 == 1:
+        is_prime.append(number)
+        print("{} is a prime number".format(number))
+    elif number % 2 < 1:
+        not_prime.append(number)
+        print("{} is NOT a prime number, because {} is a factor of {}".format(number, multiplier, number))
